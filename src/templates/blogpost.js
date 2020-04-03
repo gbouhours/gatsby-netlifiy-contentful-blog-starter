@@ -10,7 +10,6 @@ const BlogPost = ({ data }) => {
       <SEO title={title} />
       <div className="blogpost">
         <h1>{title}</h1>
-        <img alt={title} src={image.file.url} />
         <div className="tags">
           {tags.map(tag => (
             <span className="tag" key={tag}>
